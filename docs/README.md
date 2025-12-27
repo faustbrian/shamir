@@ -1,8 +1,3 @@
----
-title: Getting Started
-description: Install and use Shamir's Secret Sharing for splitting and reconstructing secrets in PHP applications.
----
-
 A pure PHP implementation of Shamir's Secret Sharing scheme, allowing secrets to be split into N shares where any M shares can reconstruct the original secret.
 
 ## Overview

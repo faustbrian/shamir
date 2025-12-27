@@ -1,8 +1,3 @@
----
-title: Use Cases
-description: Practical use cases and examples for Shamir's Secret Sharing in real-world applications.
----
-
 Real-world examples demonstrating how to use Shamir's Secret Sharing to solve common security challenges.
 
 ## Master Key Protection

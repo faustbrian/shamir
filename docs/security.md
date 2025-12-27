@@ -1,8 +1,3 @@
----
-title: Security Considerations
-description: Security best practices and considerations when using Shamir's Secret Sharing.
----
-
 Important security considerations and best practices for using Shamir's Secret Sharing in production systems.
 
 ## Information-Theoretic Security

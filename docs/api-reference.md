@@ -1,8 +1,3 @@
----
-title: API Reference
-description: Complete API reference for cline/shamir - Shamir's Secret Sharing implementation.
----
-
 Complete API documentation for the Shamir package.
 
 ## Shamir Facade

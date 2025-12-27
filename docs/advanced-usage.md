@@ -1,8 +1,3 @@
----
-title: Advanced Usage
-description: Advanced patterns and techniques for using Shamir's Secret Sharing.
----
-
 Advanced usage patterns, integration strategies, and optimization techniques.
 
 ## Progressive Secret Reconstruction
