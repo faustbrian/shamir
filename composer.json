@@ -21,8 +21,8 @@
         "ext-gmp": "*"
     },
     "require-dev": {
-        "cline/coding-standard": "^1.5.8",
-        "pestphp/pest": "^4.1.6",
+        "cline/coding-standard": "^1.6.3",
+        "pestphp/pest": "^4.2.0",
         "phpstan/phpstan": "^2.1.33"
     },
     "minimum-stability": "stable",
