@@ -1,10 +1,12 @@
 ## Table of Contents
 
-1. Overview (`docs/README.md`)
-2. Advanced Usage (`docs/advanced-usage.md`)
-3. Api Reference (`docs/api-reference.md`)
-4. Security (`docs/security.md`)
-5. Use Cases (`docs/use-cases.md`)
+1. [Overview](#doc-docs-readme) (`docs/README.md`)
+2. [Advanced Usage](#doc-docs-advanced-usage) (`docs/advanced-usage.md`)
+3. [Api Reference](#doc-docs-api-reference) (`docs/api-reference.md`)
+4. [Security](#doc-docs-security) (`docs/security.md`)
+5. [Use Cases](#doc-docs-use-cases) (`docs/use-cases.md`)
+<a id="doc-docs-readme"></a>
+
 A pure PHP implementation of Shamir's Secret Sharing scheme, allowing secrets to be split into N shares where any M shares can reconstruct the original secret.
 
 ## Overview
@@ -243,10 +245,12 @@ $shares = Shamir::for($recoveryKey)
 
 ## Next Steps
 
-- [API Reference](api-reference.md) - Complete API documentation
-- [Security Considerations](security.md) - Security best practices
-- [Advanced Usage](advanced-usage.md) - Advanced patterns and techniques
-- [Use Cases](use-cases.md) - Detailed use case examples
+- [API Reference](#doc-docs-api-reference) - Complete API documentation
+- [Security Considerations](#doc-docs-security) - Security best practices
+- [Advanced Usage](#doc-docs-advanced-usage) - Advanced patterns and techniques
+- [Use Cases](#doc-docs-use-cases) - Detailed use case examples
+
+<a id="doc-docs-advanced-usage"></a>
 
 Advanced usage patterns, integration strategies, and optimization techniques.
 
@@ -804,6 +808,8 @@ class OptimizedShamirService
 6. **Encrypt shares** at rest and in transit
 7. **Rate limit** reconstruction attempts
 8. **Monitor** for unusual access patterns
+
+<a id="doc-docs-api-reference"></a>
 
 Complete API documentation for the Shamir package.
 
@@ -1429,6 +1435,8 @@ Shamir::combine([
 ]);
 ```
 
+<a id="doc-docs-security"></a>
+
 Important security considerations and best practices for using Shamir's Secret Sharing in production systems.
 
 ## Information-Theoretic Security
@@ -1791,6 +1799,8 @@ Shamir's Secret Sharing helps meet various compliance requirements:
 - **GDPR**: Data protection and encryption key management
 
 Always consult with compliance experts for your specific requirements.
+
+<a id="doc-docs-use-cases"></a>
 
 Real-world examples demonstrating how to use Shamir's Secret Sharing to solve common security challenges.
 
