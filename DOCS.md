@@ -1,10 +1,10 @@
 ## Table of Contents
 
-1. [Overview](#doc-docs-readme) (`docs/README.md`)
-2. [Advanced Usage](#doc-docs-advanced-usage) (`docs/advanced-usage.md`)
-3. [Api Reference](#doc-docs-api-reference) (`docs/api-reference.md`)
-4. [Security](#doc-docs-security) (`docs/security.md`)
-5. [Use Cases](#doc-docs-use-cases) (`docs/use-cases.md`)
+1. [Overview](#doc-docs-readme)
+2. [Advanced Usage](#doc-docs-advanced-usage)
+3. [Api Reference](#doc-docs-api-reference)
+4. [Security](#doc-docs-security)
+5. [Use Cases](#doc-docs-use-cases)
 <a id="doc-docs-readme"></a>
 
 A pure PHP implementation of Shamir's Secret Sharing scheme, allowing secrets to be split into N shares where any M shares can reconstruct the original secret.
